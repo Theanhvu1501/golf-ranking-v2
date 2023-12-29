@@ -115,7 +115,7 @@ const TableComp: FC<Props> = ({ dataTable, onSearch, loading }) => {
           current={currentPage}
           defaultPageSize={PAGE_SIZE}
           total={dataTable.count}
-          size="small"
+          size="default"
           onChange={(page) => {
             setCurrentPage(page);
             onSearch && onSearch(page);

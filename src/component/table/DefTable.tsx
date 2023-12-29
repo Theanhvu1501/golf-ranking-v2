@@ -126,7 +126,7 @@ function DefTableInner<T extends object>(
                   indicator: <></>,
                 }}
                 {...props}
-                size="small"
+                size="large"
                 scroll={
                   isLoading
                     ? undefined
