@@ -1,0 +1,39 @@
+.tabBar {
+  :global {
+    .ant-tabs-tab.ant-tabs-tab-active {
+      border-bottom: 2px solid #0FB4AD !important;
+      z-index: 2;
+      color: #0FB4AD !important
+    }
+    .ant-tabs-tab:hover {
+      color: #0FB4AD !important; 
+    }
+    .ant-tabs-tab-active .ant-tabs-tab-btn {
+      color: #0FB4AD !important;
+    }
+    
+    .ant-tabs-tab-btn:hover {
+      color: #0FB4AD !important; 
+    }
+
+    @keyframes tabColorChange {
+      0% {
+        background-color: #ff1818; /* Start color */
+      }
+      50% {
+        background-color: #ff4d4f; /* Mid color */
+      }
+      100% {
+        background-color: #ff4d4f; /* End color */
+      }
+    }
+    
+    .animated-tabs .ant-tabs-nav {
+      animation: tabColorChange 3s infinite; /* 3s duration, infinite loop */
+    }
+    .ant-tabs-ink-bar  {
+      color: #0FB4AD !important; 
+      background-color:  #0FB4AD !important;
+    }
+  }
+}
