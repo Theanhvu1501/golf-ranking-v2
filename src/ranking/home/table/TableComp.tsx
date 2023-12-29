@@ -73,7 +73,7 @@ const TableComp: FC<Props> = ({ dataTable, onSearch, loading }) => {
           return (
             <div className="flex flex-row">
               <span
-                className="w-5 text-center text-ellipsis whitespace-nowrap overflow-hidden"
+                className="w-10 text-center text-ellipsis whitespace-nowrap overflow-hidden"
                 style={{
                   paddingRight: record.scoreChanges < 0 ? 5 : "",
                 }}
